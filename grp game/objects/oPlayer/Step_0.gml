@@ -77,6 +77,7 @@ if(collision_circle(x, y, 32, oNPCPlaceholder, true, true))
 	{
 		Source = collision_circle(x, y, 32, oNPCPlaceholder, true, true);
 		PlayerCharacter = self;
+		hascontrol = false;
 		scrDialogue();
 		show_debug_message("Initiating dialogue");
 	}

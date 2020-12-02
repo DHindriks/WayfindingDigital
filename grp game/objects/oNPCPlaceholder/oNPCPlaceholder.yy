@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlaceholder",
-    "path": "sprites/sPlaceholder/sPlaceholder.yy",
+    "name": "sPlaceholderNPC",
+    "path": "sprites/sPlaceholderNPC/sPlaceholderNPC.yy",
   },
   "solid": false,
   "visible": true,
