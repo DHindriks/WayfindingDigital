@@ -73,7 +73,7 @@ if (hsp != 0) image_xscale = sign(hsp);
 if(collision_circle(x, y, 32, oNPCPlaceholder, true, true)) 
 {
 	show_debug_message("NPC detected");
-	if (keyboard_check_pressed(ord("E"))) 
+	if (keyboard_check_pressed(ord("E")) && hascontrol) 
 	{
 		Source = collision_circle(x, y, 32, oNPCPlaceholder, true, true);
 		PlayerCharacter = self;
