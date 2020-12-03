@@ -10,7 +10,7 @@ function scrDialogue(){
 
 	with(dialogueBox) 
 	{
-		maxLength = sprite_width - 0; //TODO: subtract margin necesary for final text box sprite	
+		maxWidth = sprite_width - 0; //TODO: subtract margin necesary for final text box sprite	
 		maxHeight = sprite_height - 0; //TODO: subtract margin necesary for final text box sprite	
 		Text = Source.NPCDialogue[0, 0];
 	}

@@ -1,5 +1,5 @@
 {
-  "bboxMode": 1,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"93decffb-684c-43b5-9ba9-d4fadbee302d","path":"sprites/sPlaceholderNPC/sPlaceholderNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"93decffb-684c-43b5-9ba9-d4fadbee302d","path":"sprites/sPlaceholderNPC/sPlaceholderNPC.yy",},"LayerId":{"name":"1f6d4924-636b-4f18-a28a-95104a121ce8","path":"sprites/sPlaceholderNPC/sPlaceholderNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlaceholderNPC","path":"sprites/sPlaceholderNPC/sPlaceholderNPC.yy",},"resourceVersion":"1.0","name":"93decffb-684c-43b5-9ba9-d4fadbee302d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"54e8278d-f543-48a1-8798-b888417c535e","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"54e8278d-f543-48a1-8798-b888417c535e","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},"LayerId":{"name":"85f448f8-0193-4db4-8f61-5addeee92d45","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlaceholderCircle","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},"resourceVersion":"1.0","name":"54e8278d-f543-48a1-8798-b888417c535e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPlaceholderNPC","path":"sprites/sPlaceholderNPC/sPlaceholderNPC.yy",},
+    "spriteId": {"name":"sPlaceholderCircle","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4c13ec1c-b5a6-4446-8678-728c0483353d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"93decffb-684c-43b5-9ba9-d4fadbee302d","path":"sprites/sPlaceholderNPC/sPlaceholderNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"58748333-5b03-4fd4-b3f2-7bdfaf78434c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54e8278d-f543-48a1-8798-b888417c535e","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPlaceholderNPC","path":"sprites/sPlaceholderNPC/sPlaceholderNPC.yy",},
+    "parent": {"name":"sPlaceholderCircle","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},
     "resourceVersion": "1.3",
-    "name": "sPlaceholderNPC",
+    "name": "sPlaceholderCircle",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f6d4924-636b-4f18-a28a-95104a121ce8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85f448f8-0193-4db4-8f61-5addeee92d45","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sPlaceholderNPC",
+  "name": "sPlaceholderCircle",
   "tags": [],
   "resourceType": "GMSprite",
 }
