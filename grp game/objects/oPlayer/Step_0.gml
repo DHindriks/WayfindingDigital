@@ -70,14 +70,16 @@ else
 if (hsp != 0) image_xscale = sign(hsp);
 
 //Check if player is near NPCs for dialogue system
-if(collision_circle(x, y, 32, oNPCPlaceholder, true, true)) 
+if(collision_circle(x, y, 32, oNPCPlaceholder, true, true) && hascontrol) 
 {
 	show_debug_message("NPC detected");
-	if (keyboard_check_pressed(ord("E")) && hascontrol) 
+	if (keyboard_check_pressed(ord("E"))) 
 	{
 		Source = collision_circle(x, y, 32, oNPCPlaceholder, true, true);
 		PlayerCharacter = self;
 		hascontrol = false;
+		Index1 = 0;
+		Index2 = 0;
 		scrDialogue();
 		show_debug_message("Initiating dialogue");
 	}
