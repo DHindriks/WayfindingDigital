@@ -5,8 +5,6 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":3,},
-    {"id":{"name":"sPlaceholderCircle","path":"sprites/sPlaceholderCircle/sPlaceholderCircle.yy",},"order":7,},
-    {"id":{"name":"IndicatorPlaceHolder","path":"objects/IndicatorPlaceHolder/IndicatorPlaceHolder.yy",},"order":8,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":0,},
     {"id":{"name":"oDialogueBox","path":"objects/oDialogueBox/oDialogueBox.yy",},"order":7,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},

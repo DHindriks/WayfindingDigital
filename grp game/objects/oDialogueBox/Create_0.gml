@@ -1,2 +1,3 @@
 /// variable init
-var Text, maxWidth, maxHeightm , messageIndex;
+var Text = array_create();
+var maxWidth, maxHeight , messageIndex;
