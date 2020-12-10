@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlaceholderBox",
-    "path": "sprites/sPlaceholderBox/sPlaceholderBox.yy",
+    "name": "sPlaceholderTextBox",
+    "path": "sprites/sPlaceholderTextBox/sPlaceholderTextBox.yy",
   },
   "solid": false,
   "visible": true,

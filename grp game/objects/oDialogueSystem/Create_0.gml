@@ -1,3 +1,5 @@
 /// @description Variable init
 // You can write your code in this editor
-globalvar PlayerCharacter, Source, Index1, Index2;
+globalvar PlayerCharacter, Source, Index1, Index2, hasChoices, choiceBox, showingChoices, CurrentChoice;
+showingChoices = false;
+CurrentChoice = 0;
