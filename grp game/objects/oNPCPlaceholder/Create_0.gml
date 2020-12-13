@@ -1,5 +1,9 @@
 /// npc behaviour code
 
+hsp = 0;
+vsp = 0;
+grv = 0.3;
+
 //npc dialogue
 NPCDialogue[0, 0] = "Hello player! I am a NPC placeholder used to test the dialogue system. This line is pretty long and should eventually stop to be displayed after the player presses the next(spacebar) button.";
 
