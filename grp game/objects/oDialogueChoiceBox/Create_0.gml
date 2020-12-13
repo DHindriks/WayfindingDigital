@@ -1,2 +1,2 @@
 /// @description vars
-var Text, maxLength, maxHeight;
+var Text, maxLength, maxHeight, myNumber;

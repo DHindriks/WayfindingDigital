@@ -15,7 +15,7 @@ function scrDialogue(){
 		messageIndex = 0;
 		LastSpace = 0;
 		
-		if (array_length_2d(Source.NPCDialogue, Index1 > 1)) 
+		if (array_length_2d(Source.NPCDialogue, Index1) > 1) 
 		{
 			hasChoices = true;
 		}else 
@@ -62,8 +62,12 @@ function ScrShowChoices()
 			maxLength = sprite_width - 8;
 			maxHeight = sprite_height - 24;
 			Text = Source.NPCDialogue[Index1, Index2];
+			myNumber = string_copy(Text, string_length(Text) - 1, 2);
+			myNumber = real(myNumber);
+			Text = string_copy(Text, 1, string_length(Text) - 2);
 			image_speed = 0;
 		}
 	}
 	showingChoices = true;
+	oDialogueSystem.alarm[0] = 10;
 }
