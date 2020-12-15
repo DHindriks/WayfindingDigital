@@ -31,13 +31,14 @@ function scrDialogue(){
 			//foreach character in string (string_Length)
 			//
 			Texheight = string_height_ext(Source.NPCDialogue[Index1, Index2], 16, maxWidth);
-			amount = (Texheight / (maxHeight));;
+			amount = (Texheight / (maxHeight)) * 1.5;
 			startAt = 0;
 			for (i = 0; i < amount; i++) {
 				if (string_char_at(Source.NPCDialogue[Index1, Index2], i) == " ") 
 				{
 					LastSpace = i;
 				}
+				//Text[i] = string_copy(Source.NPCDialogue[Index1, Index2], startAt, (string_length(Source.NPCDialogue[Index1, Index2])) / amount);
 				Text[i] = string_copy(Source.NPCDialogue[Index1, Index2], startAt, (string_length(Source.NPCDialogue[Index1, Index2])) / amount);
 				startAt = string_length(Text[i]) * (i + 1);
 			}
