@@ -4,7 +4,7 @@
 function scrDialogue(){
 	
 	//create dialogue box instance
-	dialogueBox = instance_create_depth(view_wport[view_current] / 2,  (view_hport[view_current] / 4) * 3, -1, oDialogueBox);
+	dialogueBox = instance_create_depth(view_wport[view_current] / 2,  (view_hport[view_current] / 8 ) * 6.75, -1, oDialogueBox);
 
 	with(dialogueBox) 
 	{
@@ -31,7 +31,7 @@ function scrDialogue(){
 			//foreach character in string (string_Length)
 			//
 			Texheight = string_height_ext(Source.NPCDialogue[Index1, Index2], 16, maxWidth);
-			amount = (Texheight / (maxHeight)) * 1.5;
+			amount = Texheight / (maxHeight);
 			startAt = 0;
 			for (i = 0; i < amount; i++) {
 				if (string_char_at(Source.NPCDialogue[Index1, Index2], i) == " ") 
@@ -57,7 +57,12 @@ function ScrShowChoices()
 	for (i = 1; i < array_length_2d(Source.NPCDialogue, Index1); i++)
 	{
 		Index2++
-choiceBox[i - 1] = instance_create_depth((view_wport[view_current] / array_length_2d(Source.NPCDialogue, Index1)) * i,  (view_hport[view_current] / 4) * 3, -1, oDialogueChoiceBox);
+		if (array_length_2d(Source.NPCDialogue, Index1) == 1) 
+		{
+			choiceBox[i - 1] = instance_create_depth((view_wport[view_current] / array_length_2d(Source.NPCDialogue, Index1)) * i,  (view_hport[view_current] / 8 ) * 6.75, -1, oDialogueBox);
+		}else {
+			choiceBox[i - 1] = instance_create_depth((view_wport[view_current] / array_length_2d(Source.NPCDialogue, Index1)) * i,  (view_hport[view_current] / 8 ) * 6.75, -1, oDialogueChoiceBox);
+		}
 		with (choiceBox[i - 1]) 
 		{
 			maxLength = sprite_width - 8;
