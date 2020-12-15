@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 95,
-  "bbox_top": 0,
+  "bbox_left": 40,
+  "bbox_right": 57,
+  "bbox_top": 24,
   "bbox_bottom": 94,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"32b8239f-0747-4069-a2fe-958b9a1ebe0e","path":"sprites/sHansNPC/sHansNPC.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"32b8239f-0747-4069-a2fe-958b9a1ebe0e","path":"sprites/sHansNPC/sHansNPC.yy",},"LayerId":{"name":"c181064e-da74-4536-8ef1-eee6b6da76e2","path":"sprites/sHansNPC/sHansNPC.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHansNPC","path":"sprites/sHansNPC/sHansNPC.yy",},"resourceVersion":"1.0","name":"32b8239f-0747-4069-a2fe-958b9a1ebe0e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"08614ec9-868b-4942-8df7-7e4ba7379e29","path":"sprites/sDicle/sDicle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"08614ec9-868b-4942-8df7-7e4ba7379e29","path":"sprites/sDicle/sDicle.yy",},"LayerId":{"name":"71d08e3c-a8e1-4bb6-9b41-473915fcb360","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","name":"08614ec9-868b-4942-8df7-7e4ba7379e29","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sHansNPC","path":"sprites/sHansNPC/sHansNPC.yy",},
+    "spriteId": {"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c75ea194-47d4-478a-b7ab-1e0c76bc3cee","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"32b8239f-0747-4069-a2fe-958b9a1ebe0e","path":"sprites/sHansNPC/sHansNPC.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"97fc216c-b3d1-4b27-bab4-d4d431284c52","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08614ec9-868b-4942-8df7-7e4ba7379e29","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sHansNPC","path":"sprites/sHansNPC/sHansNPC.yy",},
+    "parent": {"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},
     "resourceVersion": "1.3",
-    "name": "sHansNPC",
+    "name": "sDicle",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c181064e-da74-4536-8ef1-eee6b6da76e2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"71d08e3c-a8e1-4bb6-9b41-473915fcb360","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sHansNPC",
+  "name": "sDicle",
   "tags": [],
   "resourceType": "GMSprite",
 }
