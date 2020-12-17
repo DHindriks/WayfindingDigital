@@ -64,7 +64,7 @@ function ScrShowChoices()
 		}else 
 		{
 			//choiceBox[i - 1] = instance_create_depth((view_wport[view_current] / array_length_2d(Source.NPCDialogue, Index1)) * i,  (view_hport[view_current] / 8) * 6.5, -1, oDialogueChoiceBox);
-			choiceBox[i - 1] = instance_create_depth(i * 160,  (view_hport[view_current] / 8) * 6.5, -1, oDialogueChoiceBox);
+			choiceBox[i - 1] = instance_create_depth(i * 200,  (view_hport[view_current] / 8) * 6.5, -1, oDialogueChoiceBox);
 		}
 
 		with (choiceBox[i - 1]) 

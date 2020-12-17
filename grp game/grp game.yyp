@@ -56,9 +56,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rMakerspace","path":"rooms/rMakerspace/rMakerspace.yy",},},
     {"roomId":{"name":"rMainRoom","path":"rooms/rMainRoom/rMainRoom.yy",},},
     {"roomId":{"name":"rCafe","path":"rooms/rCafe/rCafe.yy",},},
-    {"roomId":{"name":"rMakerspace","path":"rooms/rMakerspace/rMakerspace.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
