@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlaceholderChoiceBox",
-    "path": "sprites/sPlaceholderChoiceBox/sPlaceholderChoiceBox.yy",
+    "name": "sPlaceholderChoiceBoxFull",
+    "path": "sprites/sPlaceholderChoiceBoxFull/sPlaceholderChoiceBoxFull.yy",
   },
   "solid": false,
   "visible": true,

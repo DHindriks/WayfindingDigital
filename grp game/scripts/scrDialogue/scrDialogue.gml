@@ -57,7 +57,15 @@ function ScrShowChoices()
 	for (i = 1; i < array_length_2d(Source.NPCDialogue, Index1); i++)
 	{
 		Index2++
-choiceBox[i - 1] = instance_create_depth((view_wport[view_current] / array_length_2d(Source.NPCDialogue, Index1)) * i,  (view_hport[view_current] / 8) * 6.5, -1, oDialogueChoiceBox);
+		if (array_length_2d(Source.NPCDialogue, Index1) == 2) 
+		{
+			choiceBox[i - 1] = instance_create_depth((view_wport[view_current] / array_length_2d(Source.NPCDialogue, Index1)) * i,  (view_hport[view_current] / 8) * 6.5, -1, oDialogueChoiceBoxFull);
+	
+		}else 
+		{
+			choiceBox[i - 1] = instance_create_depth((view_wport[view_current] / array_length_2d(Source.NPCDialogue, Index1)) * i,  (view_hport[view_current] / 8) * 6.5, -1, oDialogueChoiceBox);
+		}
+
 		with (choiceBox[i - 1]) 
 		{
 			maxLength = sprite_width - 8;
