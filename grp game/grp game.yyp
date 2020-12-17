@@ -56,8 +56,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rMakerspace","path":"rooms/rMakerspace/rMakerspace.yy",},},
     {"roomId":{"name":"rMainRoom","path":"rooms/rMainRoom/rMainRoom.yy",},},
+    {"roomId":{"name":"rMakerspace","path":"rooms/rMakerspace/rMakerspace.yy",},},
     {"roomId":{"name":"rCafe","path":"rooms/rCafe/rCafe.yy",},},
   ],
   "Folders": [
