@@ -97,3 +97,4 @@ if(collision_circle(x, y, 32, oNPCHans, true, true) && hascontrol)
 			show_debug_message("Initiating dialogue");
 		}
 }
+ 

@@ -1,18 +1,24 @@
 {
   "resources": [
+    {"id":{"name":"sMakerspace_Door","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},"order":19,},
+    {"id":{"name":"sLockheed","path":"sprites/sLockheed/sLockheed.yy",},"order":18,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"rMainRoom","path":"rooms/rMainRoom/rMainRoom.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},"order":13,},
+    {"id":{"name":"oWhite_wall","path":"objects/oWhite_wall/oWhite_wall.yy",},"order":11,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":3,},
+    {"id":{"name":"oNPCLockheed","path":"objects/oNPCLockheed/oNPCLockheed.yy",},"order":13,},
     {"id":{"name":"sPlaceholderChoiceBox","path":"sprites/sPlaceholderChoiceBox/sPlaceholderChoiceBox.yy",},"order":10,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":0,},
     {"id":{"name":"oDialogueBox","path":"objects/oDialogueBox/oDialogueBox.yy",},"order":7,},
     {"id":{"name":"oDialogueChoiceBox","path":"objects/oDialogueChoiceBox/oDialogueChoiceBox.yy",},"order":8,},
+    {"id":{"name":"rMakerspace","path":"rooms/rMakerspace/rMakerspace.yy",},"order":3,},
     {"id":{"name":"sDoorCafe","path":"sprites/sDoorCafe/sDoorCafe.yy",},"order":12,},
     {"id":{"name":"rCafe","path":"rooms/rCafe/rCafe.yy",},"order":1,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":2,},
+    {"id":{"name":"wall_white","path":"sprites/wall_white/wall_white.yy",},"order":15,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":2,},
     {"id":{"name":"oLvLEnd","path":"objects/oLvLEnd/oLvLEnd.yy",},"order":4,},
     {"id":{"name":"tC_tiles","path":"tilesets/tC_tiles/tC_tiles.yy",},"order":1,},
@@ -29,7 +35,9 @@
     {"id":{"name":"oNPCDicle","path":"objects/oNPCDicle/oNPCDicle.yy",},"order":10,},
     {"id":{"name":"sCafe","path":"sprites/sCafe/sCafe.yy",},"order":11,},
     {"id":{"name":"scrDialogue","path":"scripts/scrDialogue/scrDialogue.yy",},"order":1,},
+    {"id":{"name":"oMakerSpaceDoor","path":"objects/oMakerSpaceDoor/oMakerSpaceDoor.yy",},"order":12,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
+    {"id":{"name":"sMakerspace_end","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},"order":17,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":3,},
   ],
   "Options": [
@@ -48,6 +56,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rMainRoom","path":"rooms/rMainRoom/rMainRoom.yy",},},
     {"roomId":{"name":"rCafe","path":"rooms/rCafe/rCafe.yy",},},
+    {"roomId":{"name":"rMakerspace","path":"rooms/rMakerspace/rMakerspace.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

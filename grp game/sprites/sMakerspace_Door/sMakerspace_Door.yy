@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 95,
-  "bbox_top": 47,
-  "bbox_bottom": 95,
+  "bbox_top": 0,
+  "bbox_bottom": 159,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 96,
-  "height": 96,
+  "height": 160,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ac6afa80-678e-4268-8f9f-7d3a69a5ca96","path":"sprites/sDoorCafe/sDoorCafe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ac6afa80-678e-4268-8f9f-7d3a69a5ca96","path":"sprites/sDoorCafe/sDoorCafe.yy",},"LayerId":{"name":"582ff4d0-b207-4326-97ea-6a516f82f3db","path":"sprites/sDoorCafe/sDoorCafe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDoorCafe","path":"sprites/sDoorCafe/sDoorCafe.yy",},"resourceVersion":"1.0","name":"ac6afa80-678e-4268-8f9f-7d3a69a5ca96","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b5201c6f-0915-47c0-a188-98ed9f2999ea","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b5201c6f-0915-47c0-a188-98ed9f2999ea","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},"LayerId":{"name":"fc63a335-3d1e-49d2-b8e0-b7d6e246e1f0","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMakerspace_Door","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},"resourceVersion":"1.0","name":"b5201c6f-0915-47c0-a188-98ed9f2999ea","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sDoorCafe","path":"sprites/sDoorCafe/sDoorCafe.yy",},
+    "spriteId": {"name":"sMakerspace_Door","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cf52de1b-eb26-44a7-9999-f865483b2294","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac6afa80-678e-4268-8f9f-7d3a69a5ca96","path":"sprites/sDoorCafe/sDoorCafe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4a02c502-172b-434d-8392-1db63f813a44","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5201c6f-0915-47c0-a188-98ed9f2999ea","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sDoorCafe","path":"sprites/sDoorCafe/sDoorCafe.yy",},
+    "parent": {"name":"sMakerspace_Door","path":"sprites/sMakerspace_Door/sMakerspace_Door.yy",},
     "resourceVersion": "1.3",
-    "name": "sDoorCafe",
+    "name": "sMakerspace_Door",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"582ff4d0-b207-4326-97ea-6a516f82f3db","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc63a335-3d1e-49d2-b8e0-b7d6e246e1f0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sDoorCafe",
+  "name": "sMakerspace_Door",
   "tags": [],
   "resourceType": "GMSprite",
 }

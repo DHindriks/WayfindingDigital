@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDoorCafe",
-    "path": "sprites/sDoorCafe/sDoorCafe.yy",
+    "name": "wall_white",
+    "path": "sprites/wall_white/wall_white.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oDoorCafe","path":"objects/oDoorCafe/oDoorCafe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDoorCafe",
+  "name": "oWhite_wall",
   "tags": [],
   "resourceType": "GMObject",
 }

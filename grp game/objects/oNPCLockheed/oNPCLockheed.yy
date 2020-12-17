@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDoorCafe",
-    "path": "sprites/sDoorCafe/sDoorCafe.yy",
+    "name": "sLockheed",
+    "path": "sprites/sLockheed/sLockheed.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oDoorCafe","path":"objects/oDoorCafe/oDoorCafe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNPCLockheed","path":"objects/oNPCLockheed/oNPCLockheed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oNPCLockheed","path":"objects/oNPCLockheed/oNPCLockheed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDoorCafe",
+  "name": "oNPCLockheed",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sDoorCafe",
-    "path": "sprites/sDoorCafe/sDoorCafe.yy",
+    "name": "sMakerspace_Door",
+    "path": "sprites/sMakerspace_Door/sMakerspace_Door.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oDoorCafe","path":"objects/oDoorCafe/oDoorCafe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oMakerSpaceDoor","path":"objects/oMakerSpaceDoor/oMakerSpaceDoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDoorCafe",
+  "name": "oMakerSpaceDoor",
   "tags": [],
   "resourceType": "GMObject",
 }
