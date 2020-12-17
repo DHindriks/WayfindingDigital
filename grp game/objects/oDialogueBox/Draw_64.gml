@@ -3,4 +3,4 @@
 draw_self();
 //draw text
 //TODO: adjust margins for final textbox sprite
-draw_text_ext(bbox_left + 5, bbox_top + 5, Text[messageIndex], 16, maxWidth);
+draw_text_ext(bbox_left + 5, bbox_top + 5, currentText, 16, maxWidth);

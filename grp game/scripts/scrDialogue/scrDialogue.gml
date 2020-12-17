@@ -48,6 +48,8 @@ function scrDialogue(){
 			Text[messageIndex] = Source.NPCDialogue[Index1, Index2];
 		}
 		
+		currentText = "";
+		position = 0;
 	}
 
 }

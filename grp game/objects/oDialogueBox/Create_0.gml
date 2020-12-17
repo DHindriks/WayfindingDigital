@@ -1,2 +1,2 @@
 /// variable init
-var  Text, maxWidth, maxHeight , messageIndex;
+var  Text, maxWidth, maxHeight , messageIndex, currentText, position;
