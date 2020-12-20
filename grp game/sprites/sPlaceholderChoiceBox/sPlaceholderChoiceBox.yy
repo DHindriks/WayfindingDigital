@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"839af36d-5f83-48db-84fe-2adcbcf3b085","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Dialog system",
+    "path": "folders/Sprites/Dialog system.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlaceholderChoiceBox",

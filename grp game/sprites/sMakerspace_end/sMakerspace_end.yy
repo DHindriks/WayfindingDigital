@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"664af8de-f3cf-49f0-938b-65c37e395f38","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Background_Assets",
+    "path": "folders/Sprites/Background_Assets.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMakerspace_end",

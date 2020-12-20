@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 319,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 191,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 320,
+  "height": 192,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0d0bc8c7-be5a-4c06-9d90-0604abef554c","path":"sprites/wall_white/wall_white.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0d0bc8c7-be5a-4c06-9d90-0604abef554c","path":"sprites/wall_white/wall_white.yy",},"LayerId":{"name":"3d1f2acd-1c80-4880-8683-faa1ef566eaa","path":"sprites/wall_white/wall_white.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"wall_white","path":"sprites/wall_white/wall_white.yy",},"resourceVersion":"1.0","name":"0d0bc8c7-be5a-4c06-9d90-0604abef554c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"62ddb423-bc7e-43a6-9d5a-6f2a8a144259","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"62ddb423-bc7e-43a6-9d5a-6f2a8a144259","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"LayerId":{"name":"8d0c895f-b65e-4cdc-9593-161d2b5d434b","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sInvetorylayout","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"resourceVersion":"1.0","name":"62ddb423-bc7e-43a6-9d5a-6f2a8a144259","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"wall_white","path":"sprites/wall_white/wall_white.yy",},
+    "spriteId": {"name":"sInvetorylayout","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"817eb4af-be56-4975-80c0-1026680a0bae","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0d0bc8c7-be5a-4c06-9d90-0604abef554c","path":"sprites/wall_white/wall_white.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d359b8c2-2efc-4390-bb70-1838e6b3e3cb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"62ddb423-bc7e-43a6-9d5a-6f2a8a144259","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"wall_white","path":"sprites/wall_white/wall_white.yy",},
+    "parent": {"name":"sInvetorylayout","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},
     "resourceVersion": "1.3",
-    "name": "wall_white",
+    "name": "sInvetorylayout",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d1f2acd-1c80-4880-8683-faa1ef566eaa","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8d0c895f-b65e-4cdc-9593-161d2b5d434b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Sprites/Walls.yy",
+    "name": "Invetory",
+    "path": "folders/Sprites/Invetory.yy",
   },
   "resourceVersion": "1.0",
-  "name": "wall_white",
+  "name": "sInvetorylayout",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0615bc2a-41ba-4b2f-a875-9954339e96f1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Background_Assets",
+    "path": "folders/Sprites/Background_Assets.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMainroom",

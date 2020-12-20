@@ -96,8 +96,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70da738b-9495-4915-b692-f408f0c8a81d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Henry",
+    "path": "folders/Sprites/Henry.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerR",

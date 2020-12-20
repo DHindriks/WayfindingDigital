@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc63a335-3d1e-49d2-b8e0-b7d6e246e1f0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Background_Assets",
+    "path": "folders/Sprites/Background_Assets.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMakerspace_Door",

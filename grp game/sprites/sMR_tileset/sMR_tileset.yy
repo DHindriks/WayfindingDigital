@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a39a64a-c337-440d-89b6-595757642784","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Tilsets",
+    "path": "folders/Sprites/Tilsets.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMR_tileset",
