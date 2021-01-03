@@ -7,6 +7,12 @@ inv_slots = 17;
 inv_slots_width = 8;
 inv_slots_height = 3;
 
+selected_slot = 0;
+pickup_slot = -1;
+m_slotx = 0;
+m_sloty = 0;
+
+
 x_buffer = 2;
 y_buffer = 4
 
@@ -33,15 +39,8 @@ slots_y = inv_UI_y (154* scale);
 
 //------PlayerInfo
 ds_player_info = ds_grid_create(2,4);
-ds_player_info[# 0, 0] = "Gold";
-ds_player_info[# 0, 1] = "Silver";
-ds_player_info[# 0, 2] = "Copper";
-ds_player_info[# 0, 3] = "Name";
-
-ds_player_info[# 1, 0] = irandom_range(0,99);
-ds_player_info[# 1, 1] = irandom_range(0,99);
-ds_player_info[# 1, 2] = irandom_range(0,99);
-ds_player_info[# 1, 3] = "Henry";
+ds_player_info[# 0, 0] = "Name";
+ds_player_info[# 1, 0] = "Henry";
 
 //---------invetory
 ds_inventory = ds_grid_create(2, inv_slots);

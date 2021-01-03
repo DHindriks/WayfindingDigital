@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"582ff4d0-b207-4326-97ea-6a516f82f3db","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Background_Assets",
-    "path": "folders/Sprites/Background_Assets.yy",
+    "name": "Doors",
+    "path": "folders/Sprites/Doors.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDoorCafe",

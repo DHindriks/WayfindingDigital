@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "wall",
+    "path": "folders/Objects/wall.yy",
   },
   "resourceVersion": "1.0",
   "name": "oWhite_wall",

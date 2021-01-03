@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 319,
+  "bbox_right": 2047,
   "bbox_top": 0,
-  "bbox_bottom": 191,
+  "bbox_bottom": 1023,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 320,
-  "height": 192,
+  "width": 2048,
+  "height": 1024,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0127a1bb-ba2e-4ac4-8ac0-6f5212b721d0","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0127a1bb-ba2e-4ac4-8ac0-6f5212b721d0","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"LayerId":{"name":"5bb5a0c7-c917-40ab-ae24-2b7544e2e7f6","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sInvetorylayout","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"resourceVersion":"1.0","name":"0127a1bb-ba2e-4ac4-8ac0-6f5212b721d0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"34329275-71eb-4b50-b7c0-2f3849950d09","path":"sprites/sHallway/sHallway.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"34329275-71eb-4b50-b7c0-2f3849950d09","path":"sprites/sHallway/sHallway.yy",},"LayerId":{"name":"a55f3f33-df2e-4a6e-afee-cd3f209a6d08","path":"sprites/sHallway/sHallway.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHallway","path":"sprites/sHallway/sHallway.yy",},"resourceVersion":"1.0","name":"34329275-71eb-4b50-b7c0-2f3849950d09","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sInvetorylayout","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},
+    "spriteId": {"name":"sHallway","path":"sprites/sHallway/sHallway.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"19933716-5aac-49ca-bd38-0ba49870033e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0127a1bb-ba2e-4ac4-8ac0-6f5212b721d0","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"75e547e9-e797-4952-9945-c607f58ad9f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34329275-71eb-4b50-b7c0-2f3849950d09","path":"sprites/sHallway/sHallway.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sInvetorylayout","path":"sprites/sInvetorylayout/sInvetorylayout.yy",},
+    "parent": {"name":"sHallway","path":"sprites/sHallway/sHallway.yy",},
     "resourceVersion": "1.3",
-    "name": "sInvetorylayout",
+    "name": "sHallway",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5bb5a0c7-c917-40ab-ae24-2b7544e2e7f6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a55f3f33-df2e-4a6e-afee-cd3f209a6d08","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Invetory",
-    "path": "folders/Sprites/Invetory.yy",
+    "name": "Background_Assets",
+    "path": "folders/Sprites/Background_Assets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sInvetorylayout",
+  "name": "sHallway",
   "tags": [],
   "resourceType": "GMSprite",
 }

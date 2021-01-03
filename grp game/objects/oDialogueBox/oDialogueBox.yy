@@ -32,8 +32,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Dialog",
+    "path": "folders/Objects/Dialog.yy",
   },
   "resourceVersion": "1.0",
   "name": "oDialogueBox",

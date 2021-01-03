@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "LVL",
+    "path": "folders/Objects/LVL.yy",
   },
   "resourceVersion": "1.0",
   "name": "oLevelManager",
