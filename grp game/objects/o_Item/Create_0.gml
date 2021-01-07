@@ -5,9 +5,9 @@ item_spr = sItems;
 spr_width = sprite_get_width(item_spr);
 spr_height = sprite_get_height(item_spr);
 
-item_num = -1;
-x_frame = 0;
-y_frame = 0;
+//item_num = -1;
+//x_frame = 0;
+//y_frame = 0;
 
 x_offset = cell_size/2;
 y_offset = cell_size*(2/3);
