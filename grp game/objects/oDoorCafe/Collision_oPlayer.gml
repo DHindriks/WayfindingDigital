@@ -1,8 +1,14 @@
-with (oPlayer)
+if (!DoorLocked) 
 {
-	if (hascontrol)
+	with (oPlayer)
 	{
-			hascontrol = false;
-			SlideTransition(TRANS_MODE.GOTO,other.target);
+		if (hascontrol)
+		{
+				hascontrol = false;
+				SlideTransition(TRANS_MODE.GOTO,other.target);
+		}
 	}
+}else if (DoorLocked && oLevelManager.CafeUnlocked)  
+{
+	DoorLocked = false;
 }

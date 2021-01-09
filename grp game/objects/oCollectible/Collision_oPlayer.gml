@@ -2,6 +2,6 @@
 
 with (oLevelManager)
 {
-	Completed1 = true;
+	MakerspaceUnlocked = true;
 }
 instance_destroy(self);
