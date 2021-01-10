@@ -24,7 +24,7 @@ if(drop_move)
 		{
 			//pickup item
 			var in = item_num;
-			with(oInvetory)
+			with(oInventory)
 			{
 				var ds_inv = ds_inventory;
 				var picked_up = false;
