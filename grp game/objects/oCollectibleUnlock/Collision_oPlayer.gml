@@ -2,6 +2,6 @@
 
 with (oLevelManager)
 {
-	MakerspaceUnlocked = true;
+	CafeUnlocked = true;
 }
 instance_destroy(self);

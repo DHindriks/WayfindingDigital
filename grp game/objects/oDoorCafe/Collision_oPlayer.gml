@@ -8,7 +8,28 @@ if (!DoorLocked)
 				SlideTransition(TRANS_MODE.GOTO,other.target);
 		}
 	}
-}else if (DoorLocked && oLevelManager.CafeUnlocked)  
+}else if (DoorLocked)  
 {
-	DoorLocked = false;
+	if (oLevelManager.CafeUnlocked) 
+	{
+			DoorLocked = false;
+	}
+	if (!ToolTipdisplayed && !other.InDialogue) 
+	{
+		Source = self;
+		PlayerCharacter = other;
+		Index1 = 0;
+		Index2 = 0;
+		scrShowToolTip();
+		ToolTipdisplayed = true;
+		
+	} else if (!other.InDialogue && keyboard_check_pressed(ord("E"))) 
+	{
+		Source = self;
+		PlayerCharacter = other;
+		Index1 = 0;
+		Index2 = 0;
+		scrShowToolTip();
+	}
+	
 }

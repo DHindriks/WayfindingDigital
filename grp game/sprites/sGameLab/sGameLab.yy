@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 2047,
+  "bbox_right": 511,
   "bbox_top": 0,
   "bbox_bottom": 1023,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 2048,
+  "width": 512,
   "height": 1024,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5d22984c-ad58-411f-9dc8-330898d7e32d","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5d22984c-ad58-411f-9dc8-330898d7e32d","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},"LayerId":{"name":"3b69132e-0dad-4405-b81e-69da5489248a","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMakerspace_end","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},"resourceVersion":"1.0","name":"5d22984c-ad58-411f-9dc8-330898d7e32d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"548fdd3d-e4fa-4dd8-b954-787d7921245f","path":"sprites/sGameLab/sGameLab.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"548fdd3d-e4fa-4dd8-b954-787d7921245f","path":"sprites/sGameLab/sGameLab.yy",},"LayerId":{"name":"63bcdbd3-696f-44a6-a954-76a1b548ed20","path":"sprites/sGameLab/sGameLab.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGameLab","path":"sprites/sGameLab/sGameLab.yy",},"resourceVersion":"1.0","name":"548fdd3d-e4fa-4dd8-b954-787d7921245f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMakerspace_end","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},
+    "spriteId": {"name":"sGameLab","path":"sprites/sGameLab/sGameLab.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"60063bda-b482-4c11-8314-0aae5d7a32df","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5d22984c-ad58-411f-9dc8-330898d7e32d","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1413efd8-dc65-4b2f-a0d9-1ea2d2f4ffc3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"548fdd3d-e4fa-4dd8-b954-787d7921245f","path":"sprites/sGameLab/sGameLab.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMakerspace_end","path":"sprites/sMakerspace_end/sMakerspace_end.yy",},
+    "parent": {"name":"sGameLab","path":"sprites/sGameLab/sGameLab.yy",},
     "resourceVersion": "1.3",
-    "name": "sMakerspace_end",
+    "name": "sGameLab",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3b69132e-0dad-4405-b81e-69da5489248a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"63bcdbd3-696f-44a6-a954-76a1b548ed20","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Background_Assets",
     "path": "folders/Sprites/Background_Assets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMakerspace_end",
+  "name": "sGameLab",
   "tags": [],
   "resourceType": "GMSprite",
 }

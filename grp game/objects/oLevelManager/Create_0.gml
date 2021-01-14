@@ -1,6 +1,6 @@
 /// @description tracks
 // You can write your code in this editor
-CafeUnlocked = true;
+CafeUnlocked = false;
 ClassRoomUnlocked = true;
 GameLabUnlocked = true;
 GlitchOfficeUnlocked = true;
