@@ -14,7 +14,7 @@ if (!DoorLocked)
 	{
 			DoorLocked = false;
 	}
-	if (!ToolTipdisplayed && !other.InDialogue) 
+	else if (!ToolTipdisplayed && !other.InDialogue && !oLevelManager.CafeUnlocked) 
 	{
 		Source = self;
 		PlayerCharacter = other;
@@ -23,7 +23,7 @@ if (!DoorLocked)
 		scrShowToolTip();
 		ToolTipdisplayed = true;
 		
-	} else if (!other.InDialogue && keyboard_check_pressed(ord("E"))) 
+	} else if (!other.InDialogue && !oLevelManager.CafeUnlocked && keyboard_check_pressed(ord("E"))) 
 	{
 		Source = self;
 		PlayerCharacter = other;
