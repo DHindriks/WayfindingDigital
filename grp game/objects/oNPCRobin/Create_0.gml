@@ -25,4 +25,4 @@ NPCDialogue[5, 0] = "Besides the Delfts Blauw, I assume you have noticed the Dut
 NPCDialogue[5, 1] = "I did, what is up with that?" + "06";
 
 NPCDialogue[6, 0] = "We feel like it’s much easier to take the bike to go places, since it’s fast, affordable and healthy. Not to mention safe, since we have dedicated roads for riding the bikes. You’ll notice with traffic, it turns out to be faster if you were to be with the bicycle. Hey, I can lend you mine if you’d like to try it out. You just gotta bring it to me first so I can check it.";
-NPCDialogue[6, 1] = "Will do!" + "07";
+NPCDialogue[6, 1] = "Will do!" + "99";
