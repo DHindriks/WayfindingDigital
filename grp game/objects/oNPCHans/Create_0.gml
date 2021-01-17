@@ -12,5 +12,5 @@ NPCDialogue[1, 0] = "Oh yeah sorry. Well you see, I’m from Deutschland, my nam
 NPCDialogue[1, 1] = "Yeah no problem. Thank you for explaining." + "02";
 
 NPCDialogue[2, 0] = "In the meantime I’ll try passing some time by practicing tricks with my soccer… ball. Scheische! How did a soccer ball get lost..? H-hey, do you think-";
-NPCDialogue[2, 1] = "Don’t you worry about it, I’m on it.";
+NPCDialogue[2, 1] = "Don’t you worry about it, I’m on it." + "99";
 

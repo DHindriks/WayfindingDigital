@@ -23,7 +23,7 @@ NPCDialogue[3, 2] = "What is lokum?" + "05";
 NPCDialogue[4, 0] = "Harika! O-oh, that means great in Turkish… haha. I’ll see you in a bit.";
 
 NPCDialogue[5, 0] = "Oops! Sorry. That is a Turkish delight which comes in many forms. The main form being a small jelly cube.";
-NPCDialogue[5, 1] = "I see, I'll look for that too then.";
+NPCDialogue[5, 1] = "I see, I'll look for that too then." + "99";
 
 NPCDialogue[6, 0] = "Now that you ask.. Lokum would go great with that.."
 NPCDialogue[6, 1] = "I got it." + "04";
