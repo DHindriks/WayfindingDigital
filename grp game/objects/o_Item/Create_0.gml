@@ -8,7 +8,6 @@ spr_height = sprite_get_height(item_spr);
 x_offset = cell_size/2;
 y_offset = cell_size*(2/3);
 
-drop_move   = true;
 var itemdir = irandom_range(0,259);
 var len     = 32;
 goal_x      = x + lengthdir_x(len, itemdir);
