@@ -11,7 +11,7 @@ NPCDialogue[0, 1] = "Nice to meet you, I'm Henry, What can I help you with?" + "
 NPCDialogue[1, 0] = "My father passed away a few years ago. He left me a box. The box is code locked and I’ve tried every possible solution I can come up with to open it but failed.";
 NPCDialogue[1, 1] = "I'm sorry to hear that, sounds like a really complicated puzzle." + "02";
 
-NPCDialogue[2, 0] = "Given the fact that my father is a master at encrypting files and my results, I’m suspectingit is not a simple code, but rather something else, like light, smell, or maybe even a memory.";
+NPCDialogue[2, 0] = "Given the fact that my father is a master at encrypting files and my results, I’m suspecting it is not a simple code, but rather something else, like light, smell, or maybe even a memory.";
 NPCDialogue[2, 1] = "How can I help you open it?" + "03";
 
 NPCDialogue[3, 0] = "My father was a veteran served in the Chinese military. It is highly possible that the elements I need might have something to do with China. Find any item related to China and bring them to me. I appreciate your help.";
