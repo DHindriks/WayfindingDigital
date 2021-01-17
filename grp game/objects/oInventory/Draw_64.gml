@@ -7,7 +7,7 @@ draw_sprite_part_ext(spr_inv_UI, 0, cell_size, 0, inv_UI_width, inv_UI_height, i
 //--------PlayerInfo
 var info_grid= ds_player_info;
 
-draw_set_font(Fnt_text_24);
+draw_set_font(Fnt_text_14);
 var c = c_black;
 draw_text_color(info_x, info_y, info_grid[# 0,0] + ": " + info_grid[# 1,0],c,c,c,c, 1);
 

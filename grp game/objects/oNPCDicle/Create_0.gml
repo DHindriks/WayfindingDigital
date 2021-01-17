@@ -8,34 +8,23 @@ grv = 0.3;
 NPCDialogue[0, 0] = "Selam";
 NPCDialogue[0, 1] = "hello! I am your new teacher. What are you up to?" + "01";
 
-NPCDialogue[1, 0] = "I have been drinking some tea and eating sunflower seeds. Would you like some tea?";
-NPCDialogue[1, 1] = "yes please - that is very kind of you." + "02";
-NPCDialogue[1, 2] = "No thank you." + "02";
+NPCDialogue[1, 0] = "Well, I have been wanting to drink some çay, but I can’t find my tea pot nor my tea glass anywhere!";
+NPCDialogue[1, 1] = "What is çay?" + "02";
+NPCDialogue[1, 2] = "Can I help with anything?" + "03";
 
-NPCDialogue[2, 0] = "And would you like some sunflower seeds?";
-NPCDialogue[2, 1] = "Yes, thank you." + "03";
-NPCDialogue[2, 2] = "No, thank you." + "03";
+NPCDialogue[2, 0] = "Oh, sorry! It means ‘tea’ in Turkish. By the way, if it’s not much to ask, would it be too much to ask you to help?";
+NPCDialogue[2, 1] = "It would be a great way to get to know my way around, so absolutely. Will that be all?" + "03";
 
-NPCDialogue[3, 0] = "What about bogrek? My mom packed me some, they go well with the tea.";
-NPCDialogue[3, 1] = "Yes, thank you." + "04";
-NPCDialogue[3, 2] = "No, thank you." + "04";
+NPCDialogue[3, 0] = "If that’s okay with you, that would be great. I am also looking for some lokum…";
+NPCDialogue[3, 1] = "I got it." + "04";
+NPCDialogue[3, 2] = "What is lokum?" + "05";
 
-NPCDialogue[4, 0] = "What about some haribo candy?";
-NPCDialogue[4, 1] = "Yes, thank you." + "05";
-NPCDialogue[4, 2] = "No, thank you." + "05";
 
-NPCDialogue[5, 0] = "What about some gum? I have a pack of gum with me";
-NPCDialogue[5, 1] = "Yes, thank you." + "06";
-NPCDialogue[5, 2] = "No, thank you." + "06";
+NPCDialogue[4, 0] = "Harika! O-oh, that means great in Turkish… haha. I’ll see you in a bit.";
 
-NPCDialogue[6, 0] = "What about a hand warmer? It is the winter month after all, it might come in handy. I have an extra hand warmer with me.";
-NPCDialogue[6, 1] = "Yes, thank you." + "07";
-NPCDialogue[6, 2] = "No you should keep it and use it yourself" + "07";
+NPCDialogue[5, 0] = "Oops! Sorry. That is a Turkish delight which comes in many forms. The main form being a small jelly cube.";
+NPCDialogue[5, 1] = "I see, I'll look for that too then.";
 
-NPCDialogue[7, 0] = " ";
-NPCDialogue[7, 1] = "You know, I should actually be going soon." + "08";
-
-NPCDialogue[8, 0] = "Oh! Well in that case, I have 1 more question. “Would you like… a card?";
-NPCDialogue[8, 1] = "Well, yes, I do." + "09";
-
-NPCDialogue[9, 0] = "Can you please help me solve this puzzle? I’ll hand you the card if you’re able to help me.";
+NPCDialogue[6, 0] = "Now that you ask.. Lokum would go great with that.."
+NPCDialogue[6, 1] = "I got it." + "04";
+NPCDialogue[6, 2] = "What is lokum?" + "05";
