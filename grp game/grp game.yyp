@@ -14,6 +14,7 @@
     {"id":{"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},"order":0,},
     {"id":{"name":"Fnt_smalldigits","path":"fonts/Fnt_smalldigits/Fnt_smalldigits.yy",},"order":2,},
     {"id":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"order":0,},
+    {"id":{"name":"JumpTrigger","path":"objects/JumpTrigger/JumpTrigger.yy",},"order":4,},
     {"id":{"name":"oWhite_wall","path":"objects/oWhite_wall/oWhite_wall.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
