@@ -18,7 +18,7 @@ NPCDialogue[4, 0] = "And would you like some sunflower seeds?";
 NPCDialogue[4, 1] = "Yes, thank you" + "05";
 NPCDialogue[4, 2] = "No, thank you" + "05";
 
-NPCDialogue[5, 0] = "What about bögrek? They're baked pastries with filling inside, these have feta cheese in‘em. My mom packed me some, they go well with the tea?";
+NPCDialogue[5, 0] = "What about bogrek? They're baked pastries with filling inside, these have feta cheese in‘em. My mom packed me some, they go well with the tea?";
 NPCDialogue[5, 1] = "Yes, thank you" + "06";
 NPCDialogue[5, 2] = "No, thank you" + "06";
 

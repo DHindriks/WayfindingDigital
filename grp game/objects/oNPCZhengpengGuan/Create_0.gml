@@ -21,7 +21,7 @@ NPCDialogue[2, 1] = "How can I help you open it?" + "03";
 
 NPCDialogue[3, 0] = "My father was a veteran served in the Chinese military. It is highly possible that the elements I need might have something to do with China. Find any item related to China and bring them to me. I appreciate your help.";
 NPCDialogue[3, 1] = "I'll see what I can do." + "04";
-NPCDialogue[3, 2] = " One question…: What does being a veteran has to do with Chinese elements?" + "05"
+NPCDialogue[3, 2] = " One question...: What does being a veteran has to do with Chinese elements?" + "05"
 
 NPCDialogue[4, 0] = "Good luck";
 

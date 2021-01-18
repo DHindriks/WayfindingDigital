@@ -10,7 +10,7 @@ for (i = 0; i < instance_number(o_Item); i++)
 }
 
 //dialogue
-NPCDialogue[0, 0] = "“As-salaam Alaykum” that means “peace be with you” my friend! My name is Youssef, how are you today?";
+NPCDialogue[0, 0] = "As-salaam Alaykum that means peace be with you my friend! My name is Youssef, how are you today?";
 NPCDialogue[0, 1] = "Hello, peace be with you too! My name is Henry, I'm a new Teacher." + "01";
 NPCDialogue[0, 2] = "Not so good, I don't really know my way around here yet." + "02";
 
@@ -20,7 +20,7 @@ NPCDialogue[1, 1] = "I understand..." + "09";
 NPCDialogue[2, 0] = "That is the joy of learning, my friend. Everything is hard the first time we try but we all have the capability within us to aspire. For you that may to be a great teacher one day. For me I want to design beautiful art for people.";
 NPCDialogue[2, 1] = "I understand..." + "09";
 
-NPCDialogue[3, 0] = "Ah Mr. Henry do not be afraid; I get a good feeling that you will do great with your teachings. I can just tell from talking with you that you mean well. However, I would say that some people need to be taught some manners around here though…";
+NPCDialogue[3, 0] = "Ah Mr. Henry do not be afraid; I get a good feeling that you will do great with your teachings. I can just tell from talking with you that you mean well. However, I would say that some people need to be taught some manners around here though...";
 NPCDialogue[3, 1] = "What do you mean?" + "04";
 
 NPCDialogue[4, 0] = "Haven't you noticed already that I am only wearing my socks?";
@@ -35,7 +35,7 @@ NPCDialogue[6, 1] = "Ah I'm sorry that you went through that Youssef. People can
 NPCDialogue[7, 0] = " It's okay, my friend this is not the first time this has happened to me, I realise people think it's silly, but I know that they are just shallow and not open to change. They will stay that way for life."; 
 NPCDialogue[7, 1] = "I'm going to get your shoes and your scarf Youssef and I want you to wear them and be proud of your culture. We're all here to learn about culture today. Will you wear them?" + "08"; 
 
-NPCDialogue[8, 0] = "You are right Mr. Henry I will wear them. They are around here somewhere…"; 
+NPCDialogue[8, 0] = "You are right Mr. Henry I will wear them. They are around here somewhere..."; 
 
 //between 2 - 3
 NPCDialogue[9, 0] = "I understand what you mean, teaching and learning are how we shape the future world and it's the reason I became a teacher. think it's soimportant that I teach my students this lesson of shaping the world. I only have a short amount of time before they enter their careers and I want them to know that they can do literally anything if they apply their skills correctly.";
