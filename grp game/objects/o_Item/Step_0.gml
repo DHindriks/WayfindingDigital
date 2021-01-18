@@ -72,6 +72,17 @@ if(drop_move)
 			//Destroy item if picked_up
 				if(picked_up)
 				{
+					if (!drop_move) 
+					{
+						with (oPlayer) 
+						{
+							RoomItems--
+							if (RoomItems <= 0) 
+							{
+								instance_create_depth(x, y, 0, oAllItemsNotification)
+							}
+						}
+					}
 					instance_destroy();
 					show_debug_message("picked up an item")
 				}
