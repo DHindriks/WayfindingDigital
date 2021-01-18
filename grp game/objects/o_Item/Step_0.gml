@@ -5,20 +5,23 @@ if(drop_move)
 	if( abs(x - goal_x) < 1 and abs(y - goal_y) < 1) { drop_move = false; }
 } else 
 {
-	if(!keyboard_check(ord("F"))) exit;
+	if(keyboard_check(ord("F")) || MoveToPlayer) 
+	{
 	var px = oPlayer.x;
 	var py = oPlayer.y;
 	var r = 32;
-	if(point_in_rectangle(px, py, x-r, y-r, x+r, y+r))
+	if(point_in_rectangle(px, py, x-r, y-r, x+r, y+r) || MoveToPlayer)
 	{
 		//are we on top of the player?
-		r = 2;
+		r = 2;			
+		MoveToPlayer = true;
+
 		if(!point_in_rectangle(px, py, x-r, y-r, x+r, y+r))
 		{
 			//move towards the player for pickup
-			x = lerp(x, px, 0.1);
-			y = lerp(y, py, 0.1);
-			
+			x = lerp(x, px, 0.15);
+			y = lerp(y, py, 0.15);
+
 		}
 		else
 		{
@@ -73,5 +76,6 @@ if(drop_move)
 					show_debug_message("picked up an item")
 				}
 		}
+	}
 	}
 }

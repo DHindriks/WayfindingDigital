@@ -14,3 +14,4 @@ goal_x      = x + lengthdir_x(len, itemdir);
 goal_y      = y + lengthdir_y(len, itemdir);
 
 ToolTipdisplayed = false;
+MoveToPlayer = false;
