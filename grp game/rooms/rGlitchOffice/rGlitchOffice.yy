@@ -37,6 +37,9 @@
             {"propertyId":{"name":"drop_move","path":"objects/o_Item/o_Item.yy",},"objectId":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":288.0,"resourceVersion":"1.0","name":"inst_7A5821CF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCollectibleUnlockMakerSpace","path":"objects/oCollectibleUnlockMakerSpace/oCollectibleUnlockMakerSpace.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":256.0,"resourceVersion":"1.0","name":"inst_6FDA1F3E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"target","path":"objects/oDoorGlitch/oDoorGlitch.yy",},"objectId":{"name":"oDoorGlitch","path":"objects/oDoorGlitch/oDoorGlitch.yy",},"value":"rHallway","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"oDoorGlitch","path":"objects/oDoorGlitch/oDoorGlitch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":864.0,"resourceVersion":"1.0","name":"inst_314235B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"door","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tC_tiles","path":"tilesets/tC_tiles/tC_tiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":64,"SerialiseHeight":32,"TileSerialiseData":[
 14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,
@@ -643,6 +646,7 @@
     {"name":"inst_6B529D68","path":"rooms/rGlitchOffice/rGlitchOffice.yy",},
     {"name":"inst_7A5821CF","path":"rooms/rGlitchOffice/rGlitchOffice.yy",},
     {"name":"inst_6FDA1F3E","path":"rooms/rGlitchOffice/rGlitchOffice.yy",},
+    {"name":"inst_314235B","path":"rooms/rGlitchOffice/rGlitchOffice.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":928.0,"resourceVersion":"1.0","name":"inst_482B2F71","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":928.0,"resourceVersion":"1.0","name":"inst_482B2F71","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oNPCLockheed","path":"objects/oNPCLockheed/oNPCLockheed.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":928.0,"resourceVersion":"1.0","name":"inst_7F470E46","tags":[],"resourceType":"GMRInstance",},
@@ -37,6 +37,9 @@
             {"propertyId":{"name":"drop_move","path":"objects/o_Item/o_Item.yy",},"objectId":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":96.0,"resourceVersion":"1.0","name":"inst_7DF5381D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCollectibleUnlockGAMELAB","path":"objects/oCollectibleUnlockGAMELAB/oCollectibleUnlockGAMELAB.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":64.0,"resourceVersion":"1.0","name":"inst_6B85D0F6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"target","path":"objects/oDoorMakerSpace/oDoorMakerSpace.yy",},"objectId":{"name":"oDoorMakerSpace","path":"objects/oDoorMakerSpace/oDoorMakerSpace.yy",},"value":"rGlitchOffice","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"oDoorMakerSpace","path":"objects/oDoorMakerSpace/oDoorMakerSpace.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":832.0,"resourceVersion":"1.0","name":"inst_2342B96C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Doors","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tMR_tiles","path":"tilesets/tMR_tiles/tMR_tiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":64,"SerialiseHeight":32,"TileSerialiseData":[
 4,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,5,
@@ -773,6 +776,7 @@
     {"name":"inst_ED7D709","path":"rooms/rMakerspace/rMakerspace.yy",},
     {"name":"inst_7DF5381D","path":"rooms/rMakerspace/rMakerspace.yy",},
     {"name":"inst_6B85D0F6","path":"rooms/rMakerspace/rMakerspace.yy",},
+    {"name":"inst_2342B96C","path":"rooms/rMakerspace/rMakerspace.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
