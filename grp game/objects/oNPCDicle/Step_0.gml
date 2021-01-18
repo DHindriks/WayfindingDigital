@@ -21,9 +21,25 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 //Check if NPC is near Player for dialogue system
+ItemsPicked = true;
 if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol) 
 {
-	show_debug_message("NPC detected");
+	for(i = 0; i < array_length_1d(RoomItems); i++)
+	{
+		if (instance_exists(RoomItems[i]))
+		{
+			ItemsPicked = false;
+		}else 
+		{
+			show_debug_message("ALL ITEMS FOUND");
+		}
+		
+	}
+	if (ItemsPicked)
+	{
+		event_user(0);
+	}
+	
 	if (keyboard_check_pressed(ord("E"))) 
 	{
 		Source = self;

@@ -4,6 +4,11 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 
+for (i = 0; i < instance_number(o_Item); i++) 
+{
+	RoomItems[i] = instance_find(o_Item, i);	
+}
+
 //npc dialogue
 NPCDialogue[0, 0] = "Hallo Henry! O-oh, do you mind taking off your shoes first?";
 NPCDialogue[0, 1] = "May I ask why that is?" + "01";

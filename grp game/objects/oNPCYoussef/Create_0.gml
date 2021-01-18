@@ -4,6 +4,11 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 
+for (i = 0; i < instance_number(o_Item); i++) 
+{
+	RoomItems[i] = instance_find(o_Item, i);	
+}
+
 //dialogue
 NPCDialogue[0, 0] = "“As-salaam Alaykum” that means “peace be with you” my friend! My name is Youssef, how are you today?";
 NPCDialogue[0, 1] = "Hello, peace be with you too! My name is Henry, I'm a new Teacher." + "01";

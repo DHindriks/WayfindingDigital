@@ -4,6 +4,13 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 
+for (i = 0; i < instance_number(o_Item); i++) 
+{
+	RoomItems[i] = instance_find(o_Item, i);	
+}
+
+show_debug_message("Dicle is looking for " + string(array_length_1d(RoomItems)) + " items")
+
 //npc dialogue
 NPCDialogue[0, 0] = "Selam";
 NPCDialogue[0, 1] = "hello! I am your new teacher. What are you up to?" + "01";
