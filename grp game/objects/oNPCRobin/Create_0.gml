@@ -4,10 +4,9 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 
-for (i = 0; i < instance_number(o_Item); i++) 
-{
-	RoomItems[i] = instance_find(o_Item, i);	
-}
+alarm[0] = room_speed / 10;
+Itemsloaded = false;
+LevelCompleted = false;
 
 //dialogue
 NPCDialogue[0, 0] = "Robin: Hallo Henry, how has Hanze been for you so far? Getting around fine?";

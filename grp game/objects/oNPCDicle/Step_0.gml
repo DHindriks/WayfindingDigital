@@ -22,26 +22,26 @@ if (place_meeting(x,y+vsp,oWall))
 
 //Check if NPC is near Player for dialogue system
 ItemsPicked = true;
-if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol) 
+if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol && Itemsloaded) 
 {
 	for(i = 0; i < array_length_1d(RoomItems); i++)
 	{
 		if (instance_exists(RoomItems[i]))
 		{
 			ItemsPicked = false;
-		}else 
-		{
-			show_debug_message("ALL ITEMS FOUND");
 		}
 		
 	}
-	if (ItemsPicked)
+	if (ItemsPicked && !LevelCompleted)
 	{
+
+		//for (i = 0; i < array_length_1d(IdList); i++)
+		//{
+			InventoryContains(IdList, true);		
+			show_debug_message(string(IdList));
+		//}
 		event_user(0);
-		for (i = 0; i < array_length_1d(IdList); i++)
-		{
-			InventoryContains(IdList[i], true);
-		}
+		LevelCompleted = true;
 		ItemsPicked = false;
 	}
 	
@@ -53,7 +53,6 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol)
 		Index1 = 0;
 		Index2 = 0;
 		scrDialogue();
-		show_debug_message("Initiating dialogue");
 	}
 }
 

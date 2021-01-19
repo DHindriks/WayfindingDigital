@@ -3,14 +3,20 @@
 //checks
 function InventoryContains(ID, RemoveItem){
 	var Inventory = oInventory;
+
+
 	//cycles through inventory
 	for(i = 0; i < ds_grid_height(Inventory.ds_inventory); i++) 
 	{
 		SItem = Inventory.ds_inventory[# 0, i];
+		for (j = 0; j < array_length_1d(ID); j++)
+		{		
+		
 		//if item ID is the same as what we're looking for
-		if(SItem == ID) 
+		if(SItem == ID[j]) 
 		{
-			return true;
+					show_debug_message("Removing item with ID: " + string(ID[j]));
+
 			//if item remove argument(bool) is true
 			if(RemoveItem == true) 
 			{
@@ -25,6 +31,7 @@ function InventoryContains(ID, RemoveItem){
 				 }
 			}
 		}
+	}
 	}
 	return false;
 }

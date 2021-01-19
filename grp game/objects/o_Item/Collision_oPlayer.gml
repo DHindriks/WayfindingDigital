@@ -1,4 +1,3 @@
-	show_debug_message("COLL WITH ITEM");
 	if (!ToolTipdisplayed && !other.InDialogue && ToolTip != "") 
 	{
 		NPCDialogue[0, 0] = ToolTip;

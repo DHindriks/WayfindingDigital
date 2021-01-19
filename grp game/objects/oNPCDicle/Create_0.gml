@@ -4,7 +4,10 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 
-alarm[0] = room_speed;
+alarm[0] = room_speed / 10;
+LevelCompleted = false;
+Itemsloaded = false;
+
 
 //npc dialogue
 NPCDialogue[0, 0] = "Selam";

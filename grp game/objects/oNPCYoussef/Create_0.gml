@@ -4,10 +4,10 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 
-for (i = 0; i < instance_number(o_Item); i++) 
-{
-	RoomItems[i] = instance_find(o_Item, i);	
-}
+LevelCompleted = false;
+
+alarm[0] = room_speed / 10;
+Itemsloaded = false;
 
 //dialogue
 NPCDialogue[0, 0] = "As-salaam Alaykum that means peace be with you my friend! My name is Youssef, how are you today?";

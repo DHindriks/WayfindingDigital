@@ -11,4 +11,3 @@ for (i = 0; i < instance_number(o_Item); i++)
 		{
 			show_debug_message(string(IdList[i]));
 		}
-		Itemsloaded = true;

@@ -17,10 +17,9 @@ NPCDialogue[4, 0] = "Awh! Thanks so much, A really appreciate yer help, Sir!";
 //good luck
 NPCDialogue[5, 0] = "Aye, Am' sure it will…keep yer eyes peeled fur me will ye?!";
 
-for (i = 0; i < instance_number(o_Item); i++) 
-{
-	RoomItems[i] = instance_find(o_Item, i);	
-}
+alarm[0] = room_speed / 10;
+Itemsloaded = false;
+LevelCompleted = false;
 
 hsp = 0;
 vsp = 0;

@@ -4,11 +4,10 @@ hsp = 0;
 vsp = 0;
 grv = 0.3;
 
-for (i = 0; i < instance_number(o_Item); i++) 
-{
-	RoomItems[i] = instance_find(o_Item, i);	
-}
+LevelCompleted = false;
 
+alarm[0] = room_speed / 10;
+Itemsloaded = false;
 //dialogue
 NPCDialogue[0, 0] = "Greetings. My name is GUAN ZHENGPENG. I'm from the mainland of China.  I have a thing that I could use your help with.";
 NPCDialogue[0, 1] = "Nice to meet you, I'm Henry, What can I help you with?" + "01";
