@@ -72,7 +72,7 @@ if(drop_move)
 			//Destroy item if picked_up
 				if(picked_up)
 				{
-					if (!drop_move) 
+					if (!DroppedFromInv) 
 					{
 						with (oPlayer) 
 						{

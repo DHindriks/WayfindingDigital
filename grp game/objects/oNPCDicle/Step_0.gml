@@ -38,6 +38,11 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol)
 	if (ItemsPicked)
 	{
 		event_user(0);
+		for (i = 0; i < array_length_1d(IdList); i++)
+		{
+			InventoryContains(IdList[i], true);
+		}
+		ItemsPicked = false;
 	}
 	
 	if (keyboard_check_pressed(ord("E"))) 

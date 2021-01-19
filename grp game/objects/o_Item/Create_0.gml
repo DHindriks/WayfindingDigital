@@ -15,3 +15,4 @@ goal_y      = y + lengthdir_y(len, itemdir);
 
 ToolTipdisplayed = false;
 MoveToPlayer = false;
+DroppedFromInv = drop_move;

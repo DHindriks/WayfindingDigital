@@ -52,6 +52,7 @@
     {"id":{"name":"tC_tiles","path":"tilesets/tC_tiles/tC_tiles.yy",},"order":1,},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":0,},
     {"id":{"name":"oNPCZhengpengGuan","path":"objects/oNPCZhengpengGuan/oNPCZhengpengGuan.yy",},"order":6,},
+    {"id":{"name":"CheckInventory","path":"scripts/CheckInventory/CheckInventory.yy",},"order":2,},
     {"id":{"name":"oAllItemsNotification","path":"objects/oAllItemsNotification/oAllItemsNotification.yy",},"order":10,},
     {"id":{"name":"sPlaceholderBox","path":"sprites/sPlaceholderBox/sPlaceholderBox.yy",},"order":0,},
     {"id":{"name":"sMR_tileset","path":"sprites/sMR_tileset/sMR_tileset.yy",},"order":1,},
