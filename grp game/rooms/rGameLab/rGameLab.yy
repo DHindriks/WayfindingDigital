@@ -43,7 +43,6 @@
             {"propertyId":{"name":"ToolTip","path":"objects/o_Item/o_Item.yy",},"objectId":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"value":"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"drop_move","path":"objects/o_Item/o_Item.yy",},"objectId":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"o_Item","path":"objects/o_Item/o_Item.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":800.0,"y":96.0,"resourceVersion":"1.0","name":"inst_388BBC16","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oCollectibleUnlockCLASSROOM","path":"objects/oCollectibleUnlockCLASSROOM/oCollectibleUnlockCLASSROOM.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":192.0,"resourceVersion":"1.0","name":"inst_5970763F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"target","path":"objects/oDoorGamelab/oDoorGamelab.yy",},"objectId":{"name":"oDoorGamelab","path":"objects/oDoorGamelab/oDoorGamelab.yy",},"value":"rMakerspace","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oDoorGamelab","path":"objects/oDoorGamelab/oDoorGamelab.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":832.0,"resourceVersion":"1.0","name":"inst_5DCB171","tags":[],"resourceType":"GMRInstance",},
@@ -839,7 +838,6 @@
     {"name":"inst_637F0B08","path":"rooms/rGameLab/rGameLab.yy",},
     {"name":"inst_5E24328C","path":"rooms/rGameLab/rGameLab.yy",},
     {"name":"inst_388BBC16","path":"rooms/rGameLab/rGameLab.yy",},
-    {"name":"inst_5970763F","path":"rooms/rGameLab/rGameLab.yy",},
     {"name":"inst_64FF7B9","path":"rooms/rGameLab/rGameLab.yy",},
     {"name":"inst_1AE3D4DC","path":"rooms/rGameLab/rGameLab.yy",},
     {"name":"inst_84B4B10","path":"rooms/rGameLab/rGameLab.yy",},

@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"08614ec9-868b-4942-8df7-7e4ba7379e29","path":"sprites/sDicle/sDicle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"08614ec9-868b-4942-8df7-7e4ba7379e29","path":"sprites/sDicle/sDicle.yy",},"LayerId":{"name":"71d08e3c-a8e1-4bb6-9b41-473915fcb360","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","name":"08614ec9-868b-4942-8df7-7e4ba7379e29","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1ff57c70-af9a-4da2-a7d0-8e63e8308ab1","path":"sprites/sDicle/sDicle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1ff57c70-af9a-4da2-a7d0-8e63e8308ab1","path":"sprites/sDicle/sDicle.yy",},"LayerId":{"name":"b9517a32-8777-422c-85a0-c147a7a2c909","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","name":"1ff57c70-af9a-4da2-a7d0-8e63e8308ab1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sDicle","path":"sprites/sDicle/sDicle.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"97fc216c-b3d1-4b27-bab4-d4d431284c52","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"08614ec9-868b-4942-8df7-7e4ba7379e29","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"87c8b1ae-f3c3-476b-8f46-d4d4ee85619a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ff57c70-af9a-4da2-a7d0-8e63e8308ab1","path":"sprites/sDicle/sDicle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"71d08e3c-a8e1-4bb6-9b41-473915fcb360","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b9517a32-8777-422c-85a0-c147a7a2c909","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "NPC",

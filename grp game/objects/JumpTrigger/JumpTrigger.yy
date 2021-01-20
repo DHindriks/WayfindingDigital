@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTrigger",
-    "path": "sprites/sTrigger/sTrigger.yy",
+    "name": "sTramp",
+    "path": "sprites/sTramp/sTramp.yy",
   },
   "solid": false,
   "visible": true,

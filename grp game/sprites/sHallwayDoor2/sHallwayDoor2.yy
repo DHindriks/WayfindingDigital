@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 2047,
-  "bbox_top": 0,
-  "bbox_bottom": 1023,
+  "bbox_right": 63,
+  "bbox_top": 8,
+  "bbox_bottom": 54,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 2048,
-  "height": 1024,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b4e6aa08-6dbf-4feb-8eb5-d05f5931c5bb","path":"sprites/sHallway/sHallway.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b4e6aa08-6dbf-4feb-8eb5-d05f5931c5bb","path":"sprites/sHallway/sHallway.yy",},"LayerId":{"name":"9cbbc2f2-d57d-400d-b726-f860205cffd2","path":"sprites/sHallway/sHallway.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sHallway","path":"sprites/sHallway/sHallway.yy",},"resourceVersion":"1.0","name":"b4e6aa08-6dbf-4feb-8eb5-d05f5931c5bb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3c6e7f23-99af-4270-a627-aee5a36e2d2e","path":"sprites/sHallwayDoor2/sHallwayDoor2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3c6e7f23-99af-4270-a627-aee5a36e2d2e","path":"sprites/sHallwayDoor2/sHallwayDoor2.yy",},"LayerId":{"name":"91d12c8b-d8d7-4d98-8188-c1b13d97c35d","path":"sprites/sHallwayDoor2/sHallwayDoor2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHallwayDoor2","path":"sprites/sHallwayDoor2/sHallwayDoor2.yy",},"resourceVersion":"1.0","name":"3c6e7f23-99af-4270-a627-aee5a36e2d2e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sHallway","path":"sprites/sHallway/sHallway.yy",},
+    "spriteId": {"name":"sHallwayDoor2","path":"sprites/sHallwayDoor2/sHallwayDoor2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8b3353f8-b16d-4db9-9c6f-3322470d12e6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4e6aa08-6dbf-4feb-8eb5-d05f5931c5bb","path":"sprites/sHallway/sHallway.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"27185993-8b62-4e68-b224-bf35077d7aac","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c6e7f23-99af-4270-a627-aee5a36e2d2e","path":"sprites/sHallwayDoor2/sHallwayDoor2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sHallway","path":"sprites/sHallway/sHallway.yy",},
+    "parent": {"name":"sHallwayDoor2","path":"sprites/sHallwayDoor2/sHallwayDoor2.yy",},
     "resourceVersion": "1.3",
-    "name": "sHallway",
+    "name": "sHallwayDoor2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9cbbc2f2-d57d-400d-b726-f860205cffd2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"91d12c8b-d8d7-4d98-8188-c1b13d97c35d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Background_Assets",
-    "path": "folders/Sprites/Background_Assets.yy",
+    "name": "Doors",
+    "path": "folders/Sprites/Doors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sHallway",
+  "name": "sHallwayDoor2",
   "tags": [],
   "resourceType": "GMSprite",
 }

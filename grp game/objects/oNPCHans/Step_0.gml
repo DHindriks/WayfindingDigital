@@ -59,6 +59,7 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol && Item
 	{
 		show_debug_message("dropping map");
 		oLevelManager.GlitchOfficeCompleted = true;
+		oLevelManager.MakerspaceUnlocked = true;
 		mapfrag = instance_create_depth(lerp(x, PlayerCharacter.x, 0.5), lerp(y, PlayerCharacter.y, 0.5), -5, o_Item)
 		with (mapfrag) 
 		{

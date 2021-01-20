@@ -2,13 +2,13 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 24,
-  "bbox_right": 70,
+  "bbox_left": 23,
+  "bbox_right": 71,
   "bbox_top": 1,
   "bbox_bottom": 95,
   "HTile": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"125ab03a-b6cb-4606-b020-00f180d52cab","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"125ab03a-b6cb-4606-b020-00f180d52cab","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"LayerId":{"name":"b470b735-3e45-4eb5-b04f-51e35cd91315","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sZhengpengGuan","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"resourceVersion":"1.0","name":"125ab03a-b6cb-4606-b020-00f180d52cab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8e2f9fd1-d057-430a-8bef-348fa6c9dac9","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8e2f9fd1-d057-430a-8bef-348fa6c9dac9","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"LayerId":{"name":"0da1ebab-0fa2-4ddd-9c10-b91dff43472e","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sZhengpengGuan","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"resourceVersion":"1.0","name":"8e2f9fd1-d057-430a-8bef-348fa6c9dac9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sZhengpengGuan","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b9570826-25d4-48cd-b55a-b542449239d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"125ab03a-b6cb-4606-b020-00f180d52cab","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"071c4057-8bb5-4dc8-8c90-cc59b0597e89","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e2f9fd1-d057-430a-8bef-348fa6c9dac9","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 48,
+    "yorigin": 48,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sZhengpengGuan","path":"sprites/sZhengpengGuan/sZhengpengGuan.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b470b735-3e45-4eb5-b04f-51e35cd91315","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0da1ebab-0fa2-4ddd-9c10-b91dff43472e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "NPC",
