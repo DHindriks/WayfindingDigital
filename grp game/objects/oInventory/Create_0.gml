@@ -1,7 +1,7 @@
 depth = -1;
 scale = 2;
 cell_size = 32;
-show_inventory = true;
+show_inventory = false;
 
 inv_slots = 17;
 inv_slots_width = 8;

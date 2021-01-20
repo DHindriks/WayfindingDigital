@@ -1,6 +1,6 @@
 /// @description tracks
 // You can write your code in this editor
-CafeUnlocked = false;
+CafeUnlocked = true;
 CafeCompleted = false;
 ClassRoomUnlocked = false;
 ClassRoomCompleted = false;
