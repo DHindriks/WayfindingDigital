@@ -12,3 +12,6 @@ MakerspaceUnlocked = false;
 MakerspaceCompleted = false;
 HallwayUnlocked = false;
 HallwayCompleted = false;
+EndGame = false;
+
+Debug_Mode = true;

@@ -8,7 +8,7 @@ if (!DoorLocked)
 				SlideTransition(TRANS_MODE.GOTO,other.target);
 		}
 	}
-}else if (DoorLocked && oLevelManager.CafeUnlocked)  
+}else if (DoorLocked && oLevelManager.MakerspaceUnlocked)  
 {
 	DoorLocked = false;
 }

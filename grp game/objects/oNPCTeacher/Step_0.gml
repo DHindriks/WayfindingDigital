@@ -31,9 +31,21 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol)
 		PlayerCharacter.hascontrol = false;
 		Index1 = 0;
 		Index2 = 0;
+		oPlayer.InDialogue = true;
 		scrDialogue();
 		show_debug_message("Initiating dialogue");
 	}
 }
+
+	if (Index1 == 3 && oLevelManager.EndGame && !PlacedMap) 
+	{
+		PlacedMap = true;
+		instance_create_depth(view_wport[view_current] / 2,  view_hport[view_current] / 2, -4, oEndMap);
+	} else if (!oPlayer.InDialogue && oLevelManager.EndGame && PlacedMap) 
+	{
+		// fade to black
+		instance_create_depth(view_wport[view_current] / 2,  view_hport[view_current] / 2, -5, oEndFade);
+
+	}
 
 y = y + vsp;

@@ -33,5 +33,24 @@ function InventoryContains(ID, RemoveItem){
 		}
 	}
 	}
-	return false;
+	return 0;
+}
+
+function CheckAmount(ID){
+	var Inventory = oInventory;
+
+
+	//cycles through inventory
+	for(i = 0; i < ds_grid_height(Inventory.ds_inventory); i++) 
+	{
+		SItem = Inventory.ds_inventory[# 0, i];	
+		//if item ID is the same as what we're looking for
+		if(SItem == ID) 
+		{
+					show_debug_message("Removing item with ID: " + string(ID));
+
+			return Inventory.ds_inventory[# 1, i];
+		}
+	}
+	return 0;
 }

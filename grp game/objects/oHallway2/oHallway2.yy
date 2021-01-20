@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sClassRoomDoor",
+    "path": "sprites/sClassRoomDoor/sClassRoomDoor.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
