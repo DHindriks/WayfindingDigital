@@ -16,9 +16,9 @@ NPCDialogue[1, 0] = "Oh ja, sorry. My name is Robin and I'm a Dutch student. I'v
 NPCDialogue[1, 1] = "Why is that?" + "02";
 
 NPCDialogue[2, 0] = "Because of the opportunities this school gives you. It already lets you work with clients in your first year. How cool is that!? If you do the Game Design course, of course. I don't know about the other courses.";
-NPCDialogue[2, 1] = "That is pretty cool like you said. Hey, do you think you can tell me some more things about the culture around here? I have a question I've always wondered…" + "03";
+NPCDialogue[2, 1] = "That is pretty cool like you said. Hey, do you think you can tell me some more things about the culture around here? I have a question I've always wondered" + "03";
 
-NPCDialogue[3, 0] = "Ga je gang(go ahead)";
+NPCDialogue[3, 0] = "Ga je gang (go ahead)";
 NPCDialogue[3, 1] = "Why are some Dutch souvenirs blue on white? Like those porcelain plates andwhatnot. Where do they come from?" + "04";
 
 NPCDialogue[4, 0] = "Well you see, back in the day traders went and brought back Chinese porcelain, these were made by using special ink on porcelain and then baking it, which turned the ink blue. The Dutch wanted to recreate these items, and made their own which we now call Delfts Blauw. I actually have a Delfts Blauw bowl somewhere, but I seem to have lost it. Could you help me find it?";

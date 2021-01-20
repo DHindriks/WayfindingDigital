@@ -20,11 +20,11 @@ NPCDialogue[2, 1] = "How can I help you open it?" + "03";
 
 NPCDialogue[3, 0] = "My father was a veteran served in the Chinese military. It is highly possible that the elements I need might have something to do with China. Find any item related to China and bring them to me. I appreciate your help.";
 NPCDialogue[3, 1] = "I'll see what I can do." + "04";
-NPCDialogue[3, 2] = " One question...: What does being a veteran has to do with Chinese elements?" + "05"
+NPCDialogue[3, 2] = " One question: What does being a veteran has to do with Chinese elements?" + "05"
 
 NPCDialogue[4, 0] = "Good luck";
 
-NPCDialogue[5, 0] = "Well, typically, Chinese people tend to become very defensive when it comes to our own country. And we value our culture and history so much that there's even a meme for it: for Chinese people, there are only two cultures in the world – Chinese culture and foreign culture. A veteran served in Chinese army will have this tendency even more. It is possible a Chinese veteran may value our country so much that he would just consider the country as a priority no matter what. My father, as an example, was one of them. So I suspect he used Chinese elements to encrypt this.";
+NPCDialogue[5, 0] = "Well, typically, Chinese people tend to become very defensive when it comes to our own country. And we value our culture and history so much that there's even a meme for it: for Chinese people, there are only two cultures in the world Chinese culture and foreign culture. A veteran served in Chinese army will have this tendency even more. It is possible a Chinese veteran may value our country so much that he would just consider the country as a priority no matter what. My father, as an example, was one of them. So I suspect he used Chinese elements to encrypt this.";
 
 
 
