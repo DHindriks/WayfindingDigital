@@ -14,4 +14,4 @@ HallwayUnlocked = false;
 HallwayCompleted = false;
 EndGame = false;
 
-Debug_Mode = true;
+Debug_Mode = false;

@@ -33,11 +33,9 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol && Item
 	if (ItemsPicked && !LevelCompleted)
 	{
 
-		//for (i = 0; i < array_length_1d(IdList); i++)
-		//{
-			InventoryContains(IdList, true);		
-			show_debug_message(string(IdList));
-		//}
+
+		InventoryContains(IdList, true);		
+
 		event_user(0);
 		LevelCompleted = true;
 		ItemsPicked = false;
