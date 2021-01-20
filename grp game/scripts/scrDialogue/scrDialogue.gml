@@ -25,13 +25,13 @@ function scrDialogue(){
 			
 		
 		//if string is too long, devide into multiple parts.
-		if (string_height_ext(Text, 20, maxWidth) > maxHeight) 
+		if (string_height_ext(Text, 28, maxWidth) > maxHeight) 
 		{
 			//TODO: when dividing the string, divide at the spaces, dont cut words
 			//foreach character in string (string_Length)
 			//
-			Texheight = string_height_ext(Source.NPCDialogue[Index1, Index2], 20, maxWidth);
-			amount = (Texheight / (maxHeight)) * 1.5;
+			Texheight = string_height_ext(Source.NPCDialogue[Index1, Index2], 28, maxWidth);
+			amount = (Texheight / (maxHeight));
 			startAt = 0;
 			for (i = 0; i < amount; i++) {
 				if (string_char_at(Source.NPCDialogue[Index1, Index2], i) == " ") 

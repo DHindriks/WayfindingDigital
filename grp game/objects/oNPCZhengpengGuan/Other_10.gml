@@ -9,7 +9,7 @@ NPCDialogue[2, 0] = "They have to be around here somewhere.";
 NPCDialogue[1, 0] = "Ah, the Chinese flag. My father used to serve in Chinese military. He taught me the meaning of the flag.  In history, China was occupied by eight different countries. The Eight-Nation Alliance, I believe it was";
 NPCDialogue[1, 1] = "How did that influence the flag's design?" + "03";
 
-NPCDialogue[3, 0] = "The red background represents the revolution. The stars represent the unity of Chinese people under the leadership of the Communist Party of China. NPC: My father never liked foreign people. He was even resisting my idea of going abroad to study. He thought there are only violence and prejudice outside China.";
+NPCDialogue[3, 0] = "The red background represents the revolution. The stars represent the unity of Chinese people under the leadership of the Communist Party of China. My father never liked foreign people. He was even resisting my idea of going abroad to study. He thought there are only violence and prejudice outside China.";
 NPCDialogue[3, 1] = "That's prejudice itself. That doesn't make sense. Nobody likes violence and prejudice." + "04";
 NPCDialogue[3, 2] = "Understandable. If your father had never been to another country, he might be thinking that way." + "06";
 
@@ -37,7 +37,7 @@ NPCDialogue[9, 1] =  "I also found this, Is this a Chinese item." + "11";
 NPCDialogue[10, 0] =  "Yeah. Superstition, of course, but it's just his way of loving me.";
 NPCDialogue[10, 1] =  "I also found this, Is this a Chinese item." + "11";
 
-NPCDialogue[11, 0] =  "Yes, a hot pot. It's like a fondue, but, instead of having cheese, it's boiling meat slices, vegetables, noodles… everything on the dinner table, and dip them in some special sauce. My father loved it. With some beer, he could eat the whole world. But that's also what caused his gout. Research shows that you can intake purine more than ten times of those from regular food after a hot pot meal. Nevertheless, hot pots are very popular in China. Especially in Sichuan province and Chungking. There's even a special type of hot pot, the hot pot chicken. It's from Cangzhou, Hebei province";
+NPCDialogue[11, 0] =  "Yes, a hot pot. It's like a fondue, but, instead of having cheese, it's boiling meat slices, vegetables, noodles everything on the dinner table, and dip them in some special sauce. My father loved it. With some beer, he could eat the whole world. But that's also what caused his gout. Research shows that you can intake purine more than ten times of those from regular food after a hot pot meal. Nevertheless, hot pots are very popular in China. Especially in Sichuan province and Chungking. There's even a special type of hot pot, the hot pot chicken. It's from Cangzhou, Hebei province";
 NPCDialogue[11, 1] =  "Sounds good. I assume it's delicious." + "12";
 NPCDialogue[11, 2] =  "Sounds strange. I'm not sure if I'm going to try it." + "13";
 
