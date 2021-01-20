@@ -14,6 +14,6 @@ HallwayUnlocked = false;
 HallwayCompleted = false;
 EndGame = false;
 
-Debug_Mode = true;
+Debug_Mode = false;
 
 audio_play_sound(S_BGMusic, 0, true)
