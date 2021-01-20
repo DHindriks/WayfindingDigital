@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.25,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "S_BGMusic.mp3",
-  "duration": 105.226334,
+  "duration": 198.773,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
