@@ -13,6 +13,7 @@ var len     = 32;
 goal_x      = x + lengthdir_x(len, itemdir);
 goal_y      = y + lengthdir_y(len, itemdir);
 
+LerpAmount = 0.15;
 ToolTipdisplayed = false;
 MoveToPlayer = false;
 DroppedFromInv = drop_move;

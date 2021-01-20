@@ -67,6 +67,7 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol && Item
 			x_frame = 0;
 			y_frame = 1;
 			drop_move = false;
+			alarm[1] = room_speed * 4;
 		}
 	}
 

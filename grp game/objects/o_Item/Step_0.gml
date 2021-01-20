@@ -19,8 +19,12 @@ if(drop_move)
 		if(!point_in_rectangle(px, py, x-r, y-r, x+r, y+r))
 		{
 			//move towards the player for pickup
-			x = lerp(x, px, 0.15);
-			y = lerp(y, py, 0.15);
+			x = lerp(x, px, LerpAmount);
+			y = lerp(y, py, LerpAmount);
+			if (MoveToPlayer) 
+			{
+				LerpAmount += 0.01;	
+			}
 
 		}
 		else
