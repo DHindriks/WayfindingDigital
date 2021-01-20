@@ -31,6 +31,10 @@ if(drop_move)
 			{
 				var ds_inv = ds_inventory;
 				var picked_up = false;
+				if (in == 16)
+				{
+					audio_play_sound(S_MapPickup, 1, false);
+				}
 				
 				//check if item exists in inventory already
 				var yy = 0 repeat(inv_slots)
