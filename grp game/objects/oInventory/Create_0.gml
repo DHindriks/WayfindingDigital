@@ -64,7 +64,7 @@ enum item
 	axe			= 13,
 	sdcard		= 14,
 	starfish	= 15,
-	height		= 16,
+	MapFragment	= 16,
 }
 
 //var yy = 0; repeat(inv_slots)

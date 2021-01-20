@@ -3,3 +3,5 @@
 globalvar PlayerCharacter, Source, Index1, Index2, hasChoices, choiceBox, showingChoices, CurrentChoice;
 showingChoices = false;
 CurrentChoice = 0;
+Index1 = 0;
+Index2 = 0;

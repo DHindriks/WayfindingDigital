@@ -55,5 +55,18 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol && Item
 		scrDialogue();
 	}
 }
+	if (Index1 == 9 && CurrentChoice == 0 && !oLevelManager.CafeCompleted && LevelCompleted) 
+	{
+		show_debug_message("dropping map");
+		oLevelManager.CafeCompleted = true;
+		mapfrag = instance_create_depth(lerp(x, PlayerCharacter.x, 0.5), lerp(y, PlayerCharacter.y, 0.5), -5, o_Item)
+		with (mapfrag) 
+		{
+			item_num = 16;
+			x_frame = 0;
+			y_frame = 1;
+			drop_move = false;
+		}
+	}
 
 y = y + vsp;

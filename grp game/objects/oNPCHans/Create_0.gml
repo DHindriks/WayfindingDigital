@@ -5,7 +5,6 @@ vsp = 0;
 grv = 0.3;
 LevelCompleted = false;
 
-
 alarm[0] = room_speed / 10;
 Itemsloaded = false;
 
