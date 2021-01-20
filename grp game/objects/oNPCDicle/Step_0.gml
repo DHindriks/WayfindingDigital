@@ -53,7 +53,7 @@ if(collision_circle(x, y, 64, oPlayer, true, true) && oPlayer.hascontrol && Item
 		scrDialogue();
 	}
 }
-	if (Index1 == 9 && CurrentChoice == 0 && !oLevelManager.CafeCompleted && LevelCompleted) 
+	if (Index1 == 10 && CurrentChoice == 0 && !oLevelManager.CafeCompleted && LevelCompleted) 
 	{
 		show_debug_message("dropping map");
 		oLevelManager.CafeCompleted = true;
