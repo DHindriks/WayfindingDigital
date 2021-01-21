@@ -1,4 +1,4 @@
-	if (!ToolTipdisplayed && !other.InDialogue) 
+	if (!ToolTipdisplayed && !other.InDialogue && !oLevelManager.CafeCompleted) 
 	{
 		NPCDialogue[0, 0] = "Press F near an item to pick it up.";
 		Source = self;

@@ -1,6 +1,6 @@
-	if (!ToolTipdisplayed && !other.InDialogue) 
+	if (!ToolTipdisplayed && !other.InDialogue && !oLevelManager.CafeCompleted) 
 	{
-		NPCDialogue[0, 0] = "Press E near someone to talk";
+		NPCDialogue[0, 0] = "Press E near someone to talk.";
 		Source = self;
 		PlayerCharacter = other;
 		Index1 = 0;

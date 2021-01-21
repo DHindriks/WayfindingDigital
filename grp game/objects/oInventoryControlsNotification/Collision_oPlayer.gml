@@ -1,4 +1,4 @@
-	if (!ToolTipdisplayed && !other.InDialogue) 
+	if (!ToolTipdisplayed && !other.InDialogue && !oLevelManager.HallwayCompleted) 
 	{
 		NPCDialogue[0, 0] = "Press I to open and close your inventory.";
 		Source = self;
